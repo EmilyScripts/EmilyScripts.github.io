@@ -1,3 +1,53 @@
 body {
     font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 2px;
 }
+
+.container {
+    height: 100%;
+    display: grid;
+    font-size: 2em;
+    grid-gap: 8px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px auto 40px;
+}
+
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    grid-column: 1 / -1;
+    background-color: coral;
+    padding: 5px;
+}
+
+.sidebar {
+    grid-column: 1 / 4;
+    background-color: chocolate;
+    padding: 5px;
+}
+
+.content {
+    grid-column: 4 / -1;
+    background-color: crimson;
+    padding: 5px;
+}
+
+.extra {
+    grid-column: 1 / -1;
+    background-color: darkred;
+    padding: 5px;
+}
+
+.footer {
+    grid-column: 1 / -1;
+    background-color: darksalmon;
+    padding: 5px;
+}
+
+
