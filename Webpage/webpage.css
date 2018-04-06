@@ -8,8 +8,8 @@ body {
 .container {
     height: 100%;
     display: grid;
-    font-size: 2em;
-    grid-gap: 8px;
+    font-size: 1rem;
+    grid-gap: 4px;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 40px auto 40px;
 }
@@ -26,15 +26,15 @@ body {
     padding: 5px;
 }
 
-.sidebar {
-    grid-column: 1 / 4;
-    background-color: chocolate;
+.content {
+    grid-column: 1 / -1;
+    background-color: crimson;
     padding: 5px;
 }
 
-.content {
-    grid-column: 4 / -1;
-    background-color: crimson;
+.sidebar {
+    grid-column: 1 / -1;
+    background-color: chocolate;
     padding: 5px;
 }
 
@@ -50,4 +50,29 @@ body {
     padding: 5px;
 }
 
+@media (min-width: 600px){
 
+.container {
+    font-size: 1.25rem;
+}
+
+.content {
+    grid-column: 4 / -1;
+    background-color: crimson;
+    padding: 5px;
+}
+
+.sidebar {
+    grid-column: 1 / 4;
+    background-color: chocolate;
+    padding: 5px;
+}
+
+@media (min-width: 800px){
+
+.container {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+}
+}
