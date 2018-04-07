@@ -1,8 +1,10 @@
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     box-sizing: border-box;
     height: 100%;
-    padding: 1px;
+    padding: 0px;
+    margin: 0px;
+    
 }
 
 .container {
@@ -11,7 +13,7 @@ body {
     font-size: 1rem;
     grid-gap: 4px;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto;
+    grid-template-rows: 300px auto;
 }
 
 .container > div {
@@ -22,8 +24,14 @@ body {
 
 .header {
     grid-column: 1 / -1;
-    background-color: coral;
+    background-color: #424242;
     padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 4.1vw;
+    text-transform: uppercase;
+    text-decoration: underline white;
+    text-shadow: 3px 3px black;
 }
 
 .content {
@@ -59,8 +67,7 @@ body {
 }
 
 .header {
-    text-align: center;
-    font-size: 5rem;
+    
     font-weight: 700;
 }
 
@@ -79,8 +86,8 @@ body {
 @media (min-width: 800px){
 
 .container {
-    font-size: 1.5rem;
-    line-height: 1.5;
+    
+    
 }
 }
 }
