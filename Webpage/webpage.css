@@ -2,7 +2,7 @@ body {
     font-family: 'Rubik', sans-serif;
     box-sizing: border-box;
     height: 100%;
-    padding: 2px;
+    padding: 1px;
 }
 
 .container {
@@ -11,7 +11,7 @@ body {
     font-size: 1rem;
     grid-gap: 4px;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 40px auto 40px;
+    grid-template-rows: auto;
 }
 
 .container > div {
@@ -54,6 +54,14 @@ body {
 
 .container {
     font-size: 1.25rem;
+    line-height: 1.25;
+    grid-template-rows: 500px auto;
+}
+
+.header {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
 }
 
 .content {
