@@ -174,4 +174,10 @@ li.navlist:hover a {
     font-size: 1.7vw;
 }
 }
+
+@media (min-width: 1000px) {
+    .navBar {
+        font-size: 1.4vw;
+    }
+}
 }
