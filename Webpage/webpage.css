@@ -10,7 +10,6 @@ body {
 
 }
 
-
 .container {
     height: 100%;
     display: grid;
@@ -105,7 +104,8 @@ body {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
+    overflow: hidden;
+    font-size: 3vw;
 	/*border: 1px solid #696969;
 	background-color: #c0c0c0;*/
 }
@@ -136,7 +136,6 @@ li.navlist:hover a {
 
 .top {
     padding: 100px;
-   
 }
 
 .header {
@@ -145,9 +144,6 @@ li.navlist:hover a {
     text-shadow: 2px 2px black;
     border: 5px solid white;
     box-shadow: 3px 3px 3px black;
-
-
-    
 }
 
 .content {
@@ -164,17 +160,16 @@ li.navlist:hover a {
 
 @media (min-width: 800px){
 
+.container {
+    grid-template-rows: 620px auto;
+}
+
 .header {
     font-size: 7vw;
 }
-.container {
-    
-    
+
+.navBar {
+    font-size: 2vw;
 }
-
-.top {
-
-}
-
 }
 }
