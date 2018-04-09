@@ -44,7 +44,7 @@ li.navlist:hover a {
     height: 100%;
     display: grid;
     font-size: 1rem;
-    grid-gap: 4px;
+    grid-gap: 0px;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 400px auto;
 }
@@ -91,19 +91,20 @@ li.navlist:hover a {
 }
 
 @-webkit-keyframes fade {
-	from {opacity: .4}
+	from {opacity: .1}
 	to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .1} 
   to {opacity: 1}
 }
 
 .content {
     grid-column: 1 / -1;
-    background-color: crimson;
-    padding: 5px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding: 30px;
 }
 
 .sidebar {
@@ -148,13 +149,12 @@ li.navlist:hover a {
 }
 
 .content {
-    grid-column: 4 / -1;
-    background-color: crimson;
-    padding: 5px;
+    grid-column: 5 / -1;
+    
 }
 
 .sidebar {
-    grid-column: 1 / 4;
+    grid-column: 1 / 5;
     background-color: chocolate;
     padding: 5px;
 }
