@@ -18,13 +18,14 @@ body {
 	padding: 0;
     overflow: hidden;
     text-transform: uppercase;
-    font-size: 2vw;
+    font-size: 3vw;
     background-color: black;
     filter: opacity(.7);
+    
 }
 
 li.navlist {
-	float: right;
+    float: right;
 }
 
 li.navlist a {
@@ -39,7 +40,8 @@ li.navlist a {
 }
 
 li.navlist:hover a {
-	background-color: #d3d3d3;
+    background-color: #d3d3d3;
+    color: black;
 }
 
 .container {
@@ -130,8 +132,8 @@ li.navlist:hover a {
     grid-column: 1 / -1;
     padding: 20px;
     text-align: center;
-    color: white;
-    background-color: #22313f;
+    color: black;
+    background-color: darkgrey;
 }
 
 .picture {
@@ -146,18 +148,28 @@ li.navlist:hover a {
     /* picture needs to be fixed to certain size in all modes */
 }
 
+/* NEEDS FIXING! */
+hr {
+    position: relative;
+    z-index: 9999;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #f9bf3b, rgba(0, 0, 0, 0));
+}
 
 .interests {
     border-top: 2px solid #f9bf3b;
     grid-column: 1 / -1;
+    flex-direction: column;
     background-color: rgb(49, 49, 49);
+    text-align: center;
     color: white;
-    padding: 15px;
+    padding: 30px;
 }
 
 .links {
     grid-column: 1 / -1;
-    background-color: lightgray;
+    background-color: darkgray;
     padding: 5px;
 }
 
