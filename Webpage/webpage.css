@@ -56,7 +56,7 @@ li.navlist:hover a {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .img001 {
@@ -85,7 +85,7 @@ li.navlist:hover a {
     font-size: 6vw;
     font-weight: 700;
     padding-bottom: 15px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #f9bf3b;
 }
 
 .header2 {
@@ -120,14 +120,18 @@ li.navlist:hover a {
 .content {
     grid-column: 1 / -1;
     background-color: rgb(49, 49, 49);
+    text-align: center;
     color: white;
     padding: 30px;
+    border-bottom: 2px solid #f9bf3b;
 }
 
 .content2 {
     grid-column: 1 / -1;
-    padding: 10px;
-    background-color: #2e3234;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #22313f;
 }
 
 .picture {
@@ -142,11 +146,11 @@ li.navlist:hover a {
     /* picture needs to be fixed to certain size in all modes */
 }
 
-/* rgb(49, 49, 49); */
 
 .interests {
+    border-top: 2px solid #f9bf3b;
     grid-column: 1 / -1;
-    background-color: #22313f;
+    background-color: rgb(49, 49, 49);
     color: white;
     padding: 15px;
 }
@@ -168,21 +172,7 @@ li.navlist:hover a {
     grid-template-rows: 590px auto;
 }
 
-.content2 {
-    grid-column: 1 / 9;
-    /* margin: 15px; */
-    padding: 10px 15px;
-}
 
-.picture {
-    grid-column: 9 / -1;
-    position: relative;
-	/* opacity: 1; */
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	/* background-attachment: fixed; */
-}
 
 
 
@@ -226,5 +216,23 @@ li.navlist:hover a {
 .header {
     font-size: 5vw;
 }
+
+.content2 {
+    grid-column: 1 / 9;
+    text-align: left;
+    /* margin: 15px; */
+    /* padding: 10px 15px; */
+}
+
+.picture {
+    grid-column: 9 / -1;
+    position: relative;
+	/* opacity: 1; */
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* background-attachment: fixed; */
+}
+
 }
 }
