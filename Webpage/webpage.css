@@ -70,6 +70,9 @@ li.navlist:hover a {
 }
 
 .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     grid-column: 1 / -1;
     background-color: #424242;
     padding: 5px;
@@ -81,7 +84,20 @@ li.navlist:hover a {
     text-shadow: 2px 2px black;
     font-size: 6vw;
     font-weight: 700;
-    padding: 3px 2px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+
+.header2 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 3vw;
+    text-shadow: 1px 1px black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    padding: 7px 10px;
+    margin-top: 30px;
 }
 
 .fade {
@@ -172,7 +188,7 @@ li.navlist:hover a {
 
 .header {
     font-size: 5vw;
-    padding: 5px;
+    /* padding: 5px; */
     text-shadow: 2px 2px black;
 }
 
@@ -194,7 +210,7 @@ li.navlist:hover a {
 
 .header {
     font-size: 5vw;
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 .navBar {
