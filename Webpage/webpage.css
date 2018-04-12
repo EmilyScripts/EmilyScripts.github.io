@@ -288,6 +288,22 @@ div.pictureContent {
     opacity: 0.8;
 }
 
+.hobbies {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    flex-direction: row;
+    align-self: start;
+    max-height: 200px;
+	max-width: 200px;
+    margin: 1.2%;
+}
+
+.hobbies:hover {
+	filter: grayscale(0%);
+    -webkit-transition: all 2000ms;
+    transition: 2000ms;
+}
+
 .iconstext {
     font-size: 2vw;
 }
