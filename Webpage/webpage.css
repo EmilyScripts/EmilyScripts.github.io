@@ -19,7 +19,7 @@ body {
 	padding: 0;
     overflow: hidden;
     text-transform: uppercase;
-    font-size: 2.9vw;
+    font-size: 2.5vw;
     background-color: black;
     filter: opacity(.7);
 }
@@ -56,7 +56,7 @@ li.navlist:hover a {
 }
 
 .container > div {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
@@ -170,6 +170,26 @@ div.pictureContent {
     border-bottom: 2px solid #f9bf3b;
 }
 
+.hobbies {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    max-width: 220px;
+    margin: 1.2%;
+}
+
+.hobbies:hover {
+	filter: grayscale(0%);
+    -webkit-transition: all 2000ms;
+    transition: 2000ms;
+}
+
+.neuro {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 220px;
+    max-height: 190px;
+}
+
 /* New Div links and icons */
 
 .links {
@@ -222,6 +242,15 @@ div.pictureContent {
     grid-template-rows: 590px auto;
 }
 
+.header {
+    font-size: 5vw;
+    text-shadow: 2px 2px black;
+}
+
+.content {
+    grid-column: 1 / -1;
+}
+
 .iconstext {
     font-size: 3vw;
 }
@@ -233,13 +262,16 @@ div.pictureContent {
     padding-top: 20px;
 }
 
-.header {
-    font-size: 5vw;
-    text-shadow: 2px 2px black;
+.hobbies {
+    max-width: 350px;
+    margin: 1.2%;
 }
 
-.content {
-    grid-column: 1 / -1;
+.neuro {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 500px;
+    max-height: 350px;
 }
 }
 
@@ -257,6 +289,18 @@ div.pictureContent {
 
 .navBar {
     font-size: 1.7vw;
+}
+
+.hobbies {
+    max-width: 320px;
+    margin: 1.2%;
+}
+
+.neuro {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 600px;
+    max-height: 400px;
 }
 
 .iconstext {
@@ -289,19 +333,15 @@ div.pictureContent {
 }
 
 .hobbies {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    flex-direction: row;
-    align-self: start;
-    max-height: 200px;
-	max-width: 200px;
+    max-width: 280px;
     margin: 1.2%;
 }
 
-.hobbies:hover {
-	filter: grayscale(0%);
-    -webkit-transition: all 2000ms;
-    transition: 2000ms;
+.neuro {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 650px;
+    max-height: 450px;
 }
 
 .iconstext {
