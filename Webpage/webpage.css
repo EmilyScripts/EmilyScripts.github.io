@@ -173,8 +173,8 @@ div.pictureContent {
 .hobbies {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
-    max-width: 220px;
-    margin: 1.2%;
+    /* max-width: 220px;
+    margin: 1.2%; */
 }
 
 .hobbies:hover {
@@ -263,8 +263,11 @@ div.pictureContent {
 }
 
 .hobbies {
-    max-width: 350px;
-    margin: 1.2%;
+    /* max-width: 350px;
+    margin: 1.2%; */
+    height: 25%;
+    width: 25%;
+    margin: 1%;
 }
 
 .neuro {
@@ -292,8 +295,8 @@ div.pictureContent {
 }
 
 .hobbies {
-    max-width: 320px;
-    margin: 1.2%;
+    /* max-width: 320px;
+    margin: 1.2%; */
 }
 
 .neuro {
@@ -333,8 +336,8 @@ div.pictureContent {
 }
 
 .hobbies {
-    max-width: 280px;
-    margin: 1.2%;
+    /* max-width: 280px;
+    margin: 1.2%; */
 }
 
 .neuro {
