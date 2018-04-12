@@ -165,12 +165,15 @@ hr {
     text-align: center;
     color: white;
     padding: 30px;
+    border-bottom: 2px solid #f9bf3b;
 }
 
 .links {
     grid-column: 1 / -1;
+    text-align: center;
+    flex-direction: column;
     background-color: darkgray;
-    padding: 5px;
+    padding: 30px;
 }
 
 @media (min-width: 600px){
@@ -184,9 +187,26 @@ hr {
     grid-template-rows: 590px auto;
 }
 
+.iconstext {
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-weight: bold;
+}
 
+.icons {
+    flex-direction: row;
+    height: 15%;
+    width: 15%;
+    padding-top: 20px;
+	padding-right: 10px;
+}
 
-
+.icons:hover {
+	filter: sepia(100) hue-rotate(10deg) saturate(999%);
+	-ms-transform: scale(1.1, 1.1);
+	-webkit-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+}
 
 .header {
     font-size: 5vw;
@@ -199,10 +219,6 @@ hr {
     
 }
 
-
-.links {
-    margin: 20px 10px;
-}
 
 @media (min-width: 800px){
 
@@ -244,6 +260,13 @@ hr {
 	background-size: cover;
 	background-repeat: no-repeat;
 	/* background-attachment: fixed; */
+}
+.icons {
+    flex-direction: row;
+    height: 10%;
+    width: 10%;
+    padding-top: 20px;
+	padding-right: 10px;
 }
 
 }
