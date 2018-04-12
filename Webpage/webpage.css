@@ -18,7 +18,7 @@ body {
 	padding: 0;
     overflow: hidden;
     text-transform: uppercase;
-    font-size: 3vw;
+    font-size: 2.9vw;
     background-color: black;
     filter: opacity(.7);
     
@@ -176,6 +176,27 @@ hr {
     padding: 30px;
 }
 
+.iconstext {
+    text-transform: uppercase;
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+.icons {
+    flex-direction: column;
+    height: 20%;
+    width: 20%;
+    /* padding-top: 20px; */
+	padding-right: 10px;
+} 
+
+.icons:hover {
+	filter: sepia(100) hue-rotate(10deg) saturate(999%);
+	-ms-transform: scale(1.1, 1.1);
+	-webkit-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+}
+
 @media (min-width: 600px){
 
 .navBar {
@@ -188,9 +209,7 @@ hr {
 }
 
 .iconstext {
-    text-transform: uppercase;
-    font-size: 2vw;
-    font-weight: bold;
+    font-size: 3vw;
 }
 
 .icons {
@@ -199,13 +218,6 @@ hr {
     width: 15%;
     padding-top: 20px;
 	padding-right: 10px;
-}
-
-.icons:hover {
-	filter: sepia(100) hue-rotate(10deg) saturate(999%);
-	-ms-transform: scale(1.1, 1.1);
-	-webkit-transform: scale(1.1, 1.1);
-	transform: scale(1.1, 1.1);
 }
 
 .header {
@@ -234,6 +246,11 @@ hr {
 .navBar {
     font-size: 1.7vw;
 }
+
+.iconstext {
+    font-size: 2.5vw;
+}
+
 }
 
 @media (min-width: 1000px) {
@@ -261,6 +278,11 @@ hr {
 	background-repeat: no-repeat;
 	/* background-attachment: fixed; */
 }
+
+.iconstext {
+    font-size: 2vw;
+}
+
 .icons {
     flex-direction: row;
     height: 10%;
