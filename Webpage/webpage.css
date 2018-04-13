@@ -154,7 +154,7 @@ div.pictureContent {
 	background-size: cover;
 	background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 150px;
+    min-height: 50px;
 }
 
 /* New Div content and image*/
@@ -170,12 +170,15 @@ div.pictureContent {
 }
 
 .interestsText {
-    padding: 30px;
+    padding: 20px;
 }
 
 .hobbies {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
+    height: 70%;
+    width: 70%;
+    margin: 1.5%;
     /* max-width: 220px;
     margin: 1.2%; */
 }
@@ -187,10 +190,10 @@ div.pictureContent {
 }
 
 .neuro {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    max-width: 220px;
-    max-height: 190px;
+    padding-bottom: 30px;
+    height: 80%;
+    width: 80%;
+    margin: 1.5%;
 }
 
 /* New Div links and icons */
@@ -266,18 +269,17 @@ div.pictureContent {
 }
 
 .hobbies {
+    height: 40%;
+    width: 40%;
+    margin: .7%;
     /* max-width: 350px;
     margin: 1.2%; */
-    height: 25%;
-    width: 25%;
-    margin: 1%;
 }
 
 .neuro {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    max-width: 500px;
-    max-height: 350px;
+    height: 70%;
+    width: 70%;
+    margin: 1.5%;
 }
 }
 
@@ -298,15 +300,17 @@ div.pictureContent {
 }
 
 .hobbies {
+    height: 40%;
+    width: 40%;
+    margin: 1.2%;
     /* max-width: 320px;
     margin: 1.2%; */
 }
 
 .neuro {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    max-width: 600px;
-    max-height: 400px;
+    height: 60%;
+    width: 60%;
+    margin: 1.5%;
 }
 
 .iconstext {
@@ -339,15 +343,17 @@ div.pictureContent {
 }
 
 .hobbies {
+    height: 30%;
+    width: 30%;
+    margin: 1.2%;
     /* max-width: 280px;
     margin: 1.2%; */
 }
 
 .neuro {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    max-width: 650px;
-    max-height: 450px;
+    height: 50%;
+    width: 50%;
+    margin: 1.5%;
 }
 
 .iconstext {
