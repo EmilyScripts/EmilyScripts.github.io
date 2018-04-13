@@ -166,8 +166,11 @@ div.pictureContent {
     background-color: rgb(49, 49, 49);
     text-align: center;
     color: white;
-    padding: 30px;
     border-bottom: 2px solid #f9bf3b;
+}
+
+.interestsText {
+    padding: 30px;
 }
 
 .hobbies {
